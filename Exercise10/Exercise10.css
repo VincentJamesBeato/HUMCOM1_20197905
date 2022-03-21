@@ -1,0 +1,54 @@
+body{
+    background-color: pink;
+}
+
+#Title{
+    text-align: center;
+    color: gold;
+    background-color: maroon;
+    size: 60px;
+}
+
+h1.coc{
+    text-align: center;
+    color: maroon;
+    font-style: Arial;
+}
+
+p.font{
+    color: brown;
+    font-style: oblique;
+    font-size: larger;
+}
+
+p.font2{
+    color: rgba(14, 77, 71, 0.877);
+    font-style: italic;
+    font-size: large;
+}
+
+h2{
+    text-align: center;
+    color:orangered;
+}
+
+ul{
+    text-align: center;
+}
+
+#info{
+    color: red;
+}
+
+footer.link{
+    text-align: left;
+    color: maroon;
+    font-style: arial;
+    font-size: large;
+}
+
+h2.bgc{
+    background-color: maroon;
+    color: gold;
+}
+
