@@ -5,6 +5,7 @@
     margin: 10px;
     shape-image-threshold: circle;
     float: left;
+    border-radius: 25px;
 }
 
 #fborder{
@@ -13,13 +14,15 @@
     border: 5px solid gold;
     margin: auto;
     padding: 0;
+    border-radius: 25px;
 }
 
 #sborder{
     width: 1000px;
     height: 1400px;
     border: 5px solid gold;
-    margin: auto
+    margin: auto;
+    border-radius: 25px;
 }
 
 .tborder{
@@ -29,6 +32,7 @@
     border: 5px solid gold;
     margin: auto;
     margin-bottom: 50px;
+    border-radius: 5px 50px 5px;
 }
 
 body{
@@ -43,6 +47,8 @@ body{
     margin: 20px;
     color: gold;
     font-size: 35px;
+    font-family: "Indie Flower", sans-serif;
+    font-weight: bold;
 }
 
 .background{
@@ -50,6 +56,7 @@ body{
     margin-left: auto;
     margin-right: auto;
     opacity: 0.6;
+    border-radius: 25px;
 }
 
 .topic{
@@ -59,8 +66,7 @@ body{
     font-size: 30px;
     margin-left: 45px;
     color: Gold;
-    font-weight: bold;
-    font-style: italic;
+    font-family: "Permanent Marker", sans-serif;
 }
 
 p.article{
@@ -72,8 +78,8 @@ p.article{
     margin-right: 50px;
     margin-top: 35px;
     color: white;
-    font-weight: bold;
     text-align: left;
+    font-family: "Lobster", sans-serif;
 }
 
 .container {
@@ -86,6 +92,7 @@ p.article{
 .lnk{
     text-decoration: none;
     color: gold;
+    font-family: "Pacifico", sans-serif;
 }
 
 #lnks{
@@ -104,9 +111,9 @@ p.article{
     margin-top: 80px;
     border-radius: 25px;
     width: 100px;
-    font-weight: bold;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.2), 0 17px 50px 0 rgba(0,0,0,0.2);
     border: 2px solid gold;
+    font-family: "Fredoka One", sans-serif;
 }
 
 a:hover, a:active {
