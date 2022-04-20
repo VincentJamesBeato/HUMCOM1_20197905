@@ -1,0 +1,118 @@
+body{
+    background-color: maroon;
+}
+
+.container{
+    display: inline-block;
+}
+
+.boxx-{
+    border: 15px solid gold;
+    box-sizing: border-box;
+    margin: 10px;
+    margin-left: 3vw;
+    width: 45vw;
+    height: 20vh;
+    float: right;
+    margin-right: auto;
+    background-color: rgb(231, 114, 134);
+}
+
+.sbox{
+    border: 15px solid gold;
+    box-sizing: border-box;
+    margin: 15px;
+    margin-left: 3vw;
+    width: 93vw;
+    height: 60vh;
+    clear: right;
+    background-color: rgb(204, 61, 85);
+}
+
+.tbox{
+    border: 15px solid gold;
+    box-sizing: border-box;
+    margin: 10px;
+    margin-left: 3vw;
+    width: 29vw;
+    height: 40vh;
+    float: right;
+    margin-right: auto;
+    background-color: rgb(163, 27, 50);
+}
+
+.fbox{
+    border: 15px solid gold;
+    box-sizing: border-box;
+    margin: 10px;
+    margin-left: 3vw;
+    width: 21vw;
+    height: 30vh;
+    float: right;
+    margin-right: auto;
+    background-color: rgb(133, 5, 26);
+}
+
+/* 1024px X 768px */
+@media only screen and (max-width: 1024px) {
+    [class*="boxx-"] {
+        width: 45vw;
+        height: 20vh;
+    }
+    [class*="sbox"]{
+        width: 93vw;
+        height: 60vh;
+    }
+    [class*="tbox"]{
+        width: 29vw;
+        height: 40vh;
+    }
+    [class*="fbox"]{
+        width: 21vw;
+        height: 30vh;
+    }
+}
+
+/* 768px X 1024px */
+@media only screen and (max-width: 768px) {
+    [class*="boxx-"] {
+      width: 92vw;
+      height: 15vh;
+      margin: 3vw;
+    }
+    [class*="sbox"]{
+        width: 93vw;
+        height: 40vh;
+    }
+    [class*="tbox"]{
+        width: 93vw;
+        height: 19vh;
+        margin: 3vw;
+    }
+    [class*="fbox"]{
+        width: 43vw;
+        height: 10vh;
+        margin: 3vw;
+        margin-left: 2vw;
+    }
+}
+
+/* 360px X 720 */
+@media only screen and (max-width: 360px) {
+    [class*="boxx-"] {
+      width: 90vw;
+      height: 10vh;
+    }
+    [class*="sbox"]{
+        width: 90vw;
+        height: 20vh;
+    }
+    [class*="tbox"]{
+        width: 90vw;
+        height: 35vh;
+    }
+    [class*="fbox"]{
+        width: 90vw;
+        height: 15vh;
+    }
+}
