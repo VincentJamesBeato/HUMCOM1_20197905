@@ -1,0 +1,1 @@
+alert('Vincent James Puguon Beato\nBS Computer Science\n1st Year\nHUMCOM1 IAA2\nIntroduction to Javascript!');
