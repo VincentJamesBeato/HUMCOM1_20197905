@@ -1,0 +1,107 @@
+.mcontent-areas-back{
+    background: linear-gradient(to right, #833ab4, #fd1d1d, #fcb045);
+    background-size: 400% 400%;
+    animation: animate-background 10s infinite ease-in-out;
+    position: relative;
+    top: 270px;
+    display: inline-block;
+    height: 2370px;
+    border-top: 5px solid rgba(0, 0, 0, 0.4);
+    width: 100%;
+}
+.mcontent-areas{
+    width: 70%;
+    position: relative;
+    display: inline-block;
+    background: rgb(247, 234, 234);
+    background-size: 400% 400%;
+    animation: animate-background 10s infinite ease-in-out;
+    height: 2355px;
+    border-radius: 0 0 25px 25px;
+}
+.mcontent-areas h2{
+    font-family: big;
+    letter-spacing: 4px;
+    padding-top: 30px;
+    font-size: 40px;
+}
+.mcontent-areas p{
+    padding: 2% 0;
+    font-family: Merienda;
+    line-height: 30px;
+    font-size: 20px;
+    word-spacing: 3px;
+}
+.mwrapper{
+    padding: 0 50px 0 50px;
+}
+
+.mfooterr{
+    width: 100%;
+    height: 350px;
+    top: 2645px;
+    background-color: #24252B;
+    position: absolute;
+    border-top: 5px solid black;
+}
+.mfootr{
+    color: rgb(250, 218, 177);
+}
+.mcol-sec{
+    font-family: Merienda;
+    font-size: 20px;
+    color: antiquewhite;
+    padding-top: 45px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.ms-section .mxplore{
+    text-decoration: none;
+    color: #f5f5f5;
+    font-size: 15px;
+    border-radius: 25px;
+    padding: 5px;
+}
+.mxplore:hover{
+    box-shadow: 3px 5px 5px;
+}
+.mt-section .vist{
+    color: #f5f5f5;
+    font-size: 15px;
+}
+
+
+.mcard{
+    width: 380px;
+    height: 300px;
+    background-color: #333;
+    border-radius: 10px;
+    outline: 1px solid rgba(255, 255, 255, .5);
+    outline-offset: -8px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, .1);
+    position: relative;
+    overflow: hidden;
+}
+.mcard-image{
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: .6;
+    transition: transform .75s;
+}
+.mcard:hover .mcard-image{
+    transform: scale(1.15);
+}
+.mcard-title{
+    position: absolute;
+    left: 15px;
+    bottom: 15px;
+    font-size: 20px;
+    text-shadow: 0 0 1px rgba(0, 0, 0, .5);
+}
+.mdisplay{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}

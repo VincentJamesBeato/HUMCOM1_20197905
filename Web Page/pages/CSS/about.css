@@ -1,0 +1,124 @@
+.mmcontent-areas-back{
+    background: linear-gradient(to right, #833ab4, #fd1d1d, #fcb045);
+    background-size: 400% 400%;
+    animation: animate-background 10s infinite ease-in-out;
+    position: relative;
+    top: 270px;
+    display: inline-block;
+    height: 1200px;
+    border-top: 5px solid rgba(0, 0, 0, 0.4);
+    width: 100%;
+}
+.mmcontent-areas{
+    width: 70%;
+    position: relative;
+    display: inline-block;
+    background: rgb(247, 234, 234);
+    background-size: 400% 400%;
+    animation: animate-background 10s infinite ease-in-out;
+    height: 1100px;
+    border-radius: 0 0 25px 25px;
+}
+.mmcontent-areas h2{
+    font-family: big;
+    letter-spacing: 4px;
+    padding-top: 30px;
+    font-size: 40px;
+}
+.mmcontent-areas p{
+    padding: 2% 0;
+    font-family: Merienda;
+    line-height: 30px;
+    font-size: 20px;
+    word-spacing: 3px;
+}
+.mmwrapper{
+    padding: 0 50px 0 50px;
+}
+
+.mfooterr{
+    width: 100%;
+    height: 350px;
+    top: 1385px;
+    background-color: #24252B;
+    position: absolute;
+    border-top: 5px solid black;
+}
+.mfootr{
+    color: rgb(250, 218, 177);
+}
+.mcol-sec{
+    font-family: Merienda;
+    font-size: 20px;
+    color: antiquewhite;
+    padding-top: 45px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.ms-section .mxplore{
+    text-decoration: none;
+    color: #f5f5f5;
+    font-size: 15px;
+    border-radius: 25px;
+    padding: 5px;
+}
+.mxplore:hover{
+    box-shadow: 3px 5px 5px;
+}
+.mt-section .vist{
+    color: #f5f5f5;
+    font-size: 15px;
+}
+
+.view{
+    display: drid;
+    grid-template-columns: 1fr 2fr;
+}
+.mmcard{
+    width: 250px;
+    height: 250px;
+    background-color: #333;
+    border-radius: 10px;
+    outline: 1px solid rgba(255, 255, 255, .5);
+    outline-offset: -8px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, .1);
+    position: relative;
+    overflow: hidden;
+}
+.mmcard-image{
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform .75s;
+}
+.mmcard:hover .mmcard-image{
+    transform: scale(1.50);
+}
+.mmcard-title{
+    position: absolute;
+    left: 15px;
+    bottom: 15px;
+    font-size: 20px;
+    text-shadow: 0 0 1px rgba(0, 0, 0, .5);
+}
+.mmdisplay{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+h2 .hone{
+    text-align: left;
+    font-size: 35px;
+}
+div .htwo{
+    text-align: justify;
+    font-size: 33px;
+}
+
+.htwoo{
+    text-decoration: none;
+    color: orangered;
+    font-size: 25px;
+}

@@ -1,0 +1,318 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    text-align: center;
+}
+body::-webkit-scrollbar {
+  width: 12px;          
+}
+body::-webkit-scrollbar-track {
+  background: rgb(83, 39, 126);      
+}
+body::-webkit-scrollbar-thumb {
+  background-color:#9461ca;  
+  border-radius: 20px;   
+  border: 3px solid rgb(161, 21, 21);  
+}
+/* navigation bar configurations -------------------------------------------------------------------------------------------------------------*/
+.container{
+    width: 100%;
+    height: 10vh;
+    background-color: #24252B;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0px 5px 5px rgba(255, 0, 0, 0.7);
+    position: fixed;
+    z-index: 12;
+}
+.logo{
+    display: inline-flex;
+    float: left;
+    margin: 0;
+}
+.vjplogo{
+    width: 50px;
+    height: 50px;
+    padding: 1em;
+    padding-right: 5px;
+    padding-left: 5px;
+    border-radius: 50%;
+}
+h3{
+    padding: 1em;
+    color: #f5f5f5;
+    letter-spacing: 1px;
+    padding-left: 0px;
+}
+h3 a{
+    text-decoration: none;
+    background: linear-gradient(90deg, #00dbde, #fc00ff);
+    text-transform: uppercase;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 35px;
+}
+ul, li{
+    list-style: none;
+    display: flex;
+    padding: 1em;
+    float: right;
+}
+li a{
+    text-decoration: none;
+    color: #f5f5f5;
+}
+li{
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+    margin: 0.5em;
+    padding: 10px 7px;/* 10px 15px */
+    color: #f5f5f5;
+    border-radius: 20px;
+}
+li:hover{
+    background: #00dbde;
+    text-transform: uppercase;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    box-shadow: 3px 5px 5px;
+}
+#active{
+    font-weight: bold;
+    color: greenyellow;
+}
+/* banner area configurations ----------------------------------------------------------------------------------------------------------------*/
+.banner-area{
+    width: 100%;
+    height: 500px;
+    position: fixed;
+    top: 70px;
+    background-image: url(../Background/background.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+.banner-area h2{
+    padding-top: 4%;
+    font-size: 100px;
+    font-family: Poppins;
+    text-transform: uppercase;
+    color: black;
+}
+.banner-area h4{
+    font-size: 65px;
+}
+.banner.is-animetion{
+    margin-top: 0.6em;
+}
+.banner.is-animetion span{
+    display: inline-block;
+    animation: wave-text 4s ease-in-out infinite;
+    animation-delay: calc(1s*var(--i));
+}
+/* content area configurations ---------------------------------------------------------------------------------------------------------------*/
+.content-area-back{
+    background: linear-gradient(to right, #833ab4, #fd1d1d, #fcb045);
+    background-size: 400% 400%;
+    animation: animate-background 10s infinite ease-in-out;
+    position: relative;
+    top: 570px;
+    display: inline-block;
+    height: 1500px;
+    border-top: 5px solid rgba(0, 0, 0, 0.4);
+}
+.content-area{
+    width: 70%;
+    position: relative;
+    display: inline-block;
+    background: rgb(248, 185, 148);
+    background-size: 400% 400%;
+    animation: animate-background 10s infinite ease-in-out;
+    height: 1490px;
+    border-radius: 0 0 25px 25px;
+}
+.content-area h2{
+    font-family: big;
+    letter-spacing: 4px;
+    padding-top: 30px;
+    font-size: 40px;
+}
+.content-area p{
+    padding: 2% 0;
+    text-align: justify;
+    font-family: 'Playfair Display';
+    line-height: 30px;
+    font-size: 20px;
+    word-spacing: 3px;
+}
+.wrapper{
+    padding: 0 50px 0 50px;
+}
+.cnn-video{
+    border-radius: 25px;
+    border: 10px solid rgb(214, 38, 38);
+    padding: 10px;
+}
+.caption-conf{
+    text-decoration: none;
+    color: rgb(29, 36, 65);
+/* footer area configurations ----------------------------------------------------------------------------------------------------------------*/
+}
+footer{
+    width: 100%;
+    height: 350px;
+    top: 2075px;
+    background-color: #24252B;
+    position: absolute;
+    border-top: 5px solid black;
+}
+.footr{
+    color: rgb(250, 218, 177);
+}
+.col-sec{
+    font-size: 20px;
+    color: antiquewhite;
+    padding-top: 45px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.s-section .xplore{
+    text-decoration: none;
+    color: #f5f5f5;
+    font-size: 15px;
+    border-radius: 25px;
+    padding: 5px;
+}
+.xplore:hover{
+    box-shadow: 3px 5px 5px;
+}
+.t-section .vist{
+    color: #f5f5f5;
+    font-size: 15px;
+}
+
+
+/* other pages banner area configurations ----------------------------------------------------------------------------------------------------*/
+.banner-areas{
+    width: 100%;
+    height: 200px;
+    position: fixed;
+    top: 70px;
+    background: linear-gradient(90deg, rgb(172, 220, 76), rgb(92, 116, 44));
+    background-size: 400% 400%;
+    animation: animate-background 10s infinite ease-in-out;
+}
+.banner-areas h2{
+    padding-top: 5%;
+    font-size: 75px;
+    font-family: Poppins;
+    text-transform: uppercase;
+    color: black;
+}
+/* other pages content configurations --------------------------------------------------------------------------------------------------------*/
+.content-areas-back{
+    background: linear-gradient(to right, #833ab4, #fd1d1d, #fcb045);
+    background-size: 400% 400%;
+    animation: animate-background 10s infinite ease-in-out;
+    position: relative;
+    top: 270px;
+    display: inline-block;
+    height: 1500px;
+    border-top: 5px solid rgba(0, 0, 0, 0.4);
+    width: 100%;
+}
+.content-areas{
+    width: 70%;
+    position: relative;
+    display: inline-block;
+    background: rgb(247, 234, 234);
+    background-size: 400% 400%;
+    animation: animate-background 10s infinite ease-in-out;
+    height: 1490px;
+    border-radius: 0 0 25px 25px;
+}
+.content-areas h2{
+    font-family: big;
+    letter-spacing: 4px;
+    padding-top: 30px;
+    font-size: 40px;
+}
+.content-areas p{
+    padding: 2% 0;
+    font-family: Merienda;
+    line-height: 30px;
+    font-size: 20px;
+    word-spacing: 3px;
+}
+.wrapper{
+    padding: 0 50px 0 50px;
+}
+/* other pages footer area configurations ----------------------------------------------------------------------------------------------------*/
+.footerr{
+    width: 100%;
+    height: 15vh;
+    top: 1775px;
+    background-color: #24252B;
+    position: absolute;
+    border-top: 5px solid black;
+}
+.footrs{
+    padding: 5px;
+}
+
+
+
+/* keyframes animation -----------------------------------------------------------------------------------------------------------------------*/
+@keyframes wave-text{
+    00%{
+        transform: translateY(0em);
+    }
+    60%{
+        transform: translateY(-0.2em);
+    }
+    100%{
+        transform: translateY(0em);
+    }
+}
+@keyframes animate-background{
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+}
+
+
+/* media queries -----------------------------------------------------------------------------------------------------------------------------*/
+@media (max-width: 1366px){
+    .container{
+        height: 10vh;
+    }
+    .banner-area{
+        background-size: cover;
+        top: 70px;
+    }
+    .banner h4{
+        font-size: 200px;
+    }
+    .banner.is-animetion span{
+        font-size: 100px;
+    }
+    .banner-area h2{
+    padding-top: 15%;
+    font-size: 50px;
+    }
+    ul{
+        font-size: 17px;
+    }
+    li{
+        padding: none;
+    }
+
+}
